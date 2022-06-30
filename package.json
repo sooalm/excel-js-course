@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/sooalm/excel-js-course/issues"
   },
-  "homepage": "https://github.com/sooalm/excel-js-course#readme"
+  "homepage": "https://github.com/sooalm/excel-js-course#readme",
+  "private": true
 }
