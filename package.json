@@ -22,6 +22,7 @@
     "envinfo": "^7.8.1",
     "es-module-lexer": "^0.9.3",
     "escalade": "^3.1.1",
+    "eslint": "^7.32.0",
     "eslint-scope": "^5.1.1",
     "esrecurse": "^4.3.0",
     "estraverse": "^4.3.0",
@@ -89,11 +90,16 @@
   },
   "devDependencies": {
     "@babel/core": "^7.18.6",
+    "@babel/eslint-parser": "^7.18.2",
     "@babel/preset-env": "^7.18.6",
+    "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.5",
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^11.0.0",
     "cross-env": "^7.0.3",
+    "eslint-config-google": "^0.14.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-webpack-plugin": "^3.2.0",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.73.0",
     "webpack-cli": "^4.10.0",
@@ -101,7 +107,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cross-env NODE_ENV=development webpack-dev-server --open",
+    "start": "cross-env NODE_ENV=development webpack serve --hot",
     "build": "cross-env NODE_ENV=production webpack --mode production"
   },
   "repository": {
