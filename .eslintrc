@@ -1,0 +1,32 @@
+{
+   
+    "parserOptions": {
+      
+        "parser": "@babel/eslint-parser",
+        "sourceType": "module",
+        "ecmaVersion": 8
+         // "requireConfigFile": false,
+    },
+    "env": {
+        "es6": true,
+       
+        "browser": true,
+        "node": true
+    },
+    "rules": {
+        "semi": "Off",
+        "arrow-parents":"off",
+        "comma-dangle":"off",
+        "require-jsdoc":"off",
+        "space-before-blocks":"off",
+        "indent":"off",
+        "linebreak-style":0,
+        "quotes": [0, "double"],
+        "eol-last": 0,
+ "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }]
+    },
+    "extends": [
+        "eslint:recommended",
+        "google"
+    ]
+}
